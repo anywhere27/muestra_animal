@@ -6,7 +6,6 @@ from animales import tiburon, serpiente, paloma, leon
 #decisiones
 #dibujos
 #clase
-
 menu = {
    
    '1': '1. tiburon,',
@@ -14,10 +13,8 @@ menu = {
    '3': '3. paloma',
    '4': '4. leon',
    '0': '0. exit'
-
 }
    
-
 class Animal():
    def __init__(self):
       self.type = type
@@ -28,7 +25,6 @@ class Animal():
       animal_art = getattr(animales, self.type)
       return animal_art
       pass
-
 
 # ejecucion principal
 

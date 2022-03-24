@@ -25,6 +25,14 @@ class Animal():
       animal_art = getattr(animales, self.type)
       return animal_art
       pass
+   
+   
+mostrar = animales
+mostrar.menu = tiburon
+mostrar.menu = serpiente
+mostrar.menu = paloma
+mostrar.menu = leon
+
 
 # ejecucion principal
 
@@ -41,6 +49,7 @@ if __name__ == '__main__':
          menu_value = menu.get(user_input)
          print(menu_value.split(' '))
          #animal =Animal()
+         
          print("mostrar", animales.menu)
          pass
       else:
